@@ -1,0 +1,124 @@
+{
+  "usuarios": [
+    {
+      "nombre": "joaco",
+      "contrasena": "contrasena",
+      "id": "ac8d"
+    },
+    {
+      "id": "157c",
+      "nombre": "",
+      "contrasena": ""
+    },
+    {
+      "id": "17b6",
+      "nombre": "",
+      "contrasena": ""
+    },
+    {
+      "id": "74a1",
+      "nombre": "joacoa",
+      "correo": "jo@gmail.com",
+      "telefono": 123456789,
+      "contrasena": "joaco1234"
+    },
+    {
+      "id": "98b7",
+      "nombre": "joaco1234",
+      "correo": "jo@gmail.com",
+      "telefono": 123412349,
+      "contrasena": "joaco1234"
+    },
+    {
+      "id": "a096",
+      "nombre": "alonso",
+      "correo": "alonso@gmail.com",
+      "telefono": 123456789,
+      "contrasena": "joaco1234"
+    },
+    {
+      "id": "db38",
+      "nombre": "",
+      "contrasena": ""
+    },
+    {
+      "id": "ede6",
+      "nombre": "",
+      "contrasena": ""
+    },
+    {
+      "id": "3e52",
+      "nombre": "",
+      "contrasena": ""
+    },
+    {
+      "id": "0908",
+      "nombre": "",
+      "contrasena": ""
+    },
+    {
+      "id": "f530",
+      "nombre": "",
+      "contrasena": ""
+    },
+    {
+      "id": "ca91",
+      "nombre": "",
+      "contrasena": ""
+    },
+    {
+      "id": "dc25",
+      "nombre": "benjas",
+      "correo": "as@gmail.com",
+      "telefono": 912345621,
+      "contrasena": "15800242"
+    },
+    {
+      "id": "14eb",
+      "nombre": "",
+      "contrasena": ""
+    },
+    {
+      "id": "c44e",
+      "nombre": "",
+      "contrasena": ""
+    },
+    {
+      "id": "68ec",
+      "nombre": "",
+      "contrasena": ""
+    },
+    {
+      "id": "8fd3",
+      "nombre": "Camilo",
+      "correo": "j@gmail.com",
+      "telefono": 123456789,
+      "contrasena": "15800242"
+    },
+    {
+      "id": "8a42",
+      "nombre": "",
+      "contrasena": ""
+    },
+    {
+      "id": "50a2",
+      "nombre": "",
+      "contrasena": ""
+    },
+    {
+      "id": "8960",
+      "nombre": "",
+      "contrasena": ""
+    },
+    {
+      "id": "7f58",
+      "nombre": "",
+      "contrasena": ""
+    },
+    {
+      "id": "5575",
+      "nombre": "",
+      "contrasena": ""
+    }
+  ]
+}
