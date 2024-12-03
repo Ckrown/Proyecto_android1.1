@@ -7,7 +7,7 @@ import { IonicModule } from '@ionic/angular';
 import { InicioPageRoutingModule } from './inicio-routing.module';
 
 import { InicioPage } from './inicio.page';
-import { ZXingScannerModule } from '@zxing/ngx-scanner'; // Importar el módulo del escáner
+import { ZXingScannerModule } from '@zxing/ngx-scanner'; 
 
 @NgModule({
   imports: [
@@ -15,7 +15,7 @@ import { ZXingScannerModule } from '@zxing/ngx-scanner'; // Importar el módulo 
     FormsModule,
     IonicModule,
     InicioPageRoutingModule,
-    ZXingScannerModule // Asegúrate de importar aquí el módulo del escáner
+    ZXingScannerModule 
   ],
   declarations: [InicioPage]
 })

@@ -1,5 +1,5 @@
 
-  <!-- Menu Lateral -->
+
   <ion-menu contentId="main-content" side="start" type="reveal" color="dark">
     <ion-header>
       <ion-toolbar color="dark">
@@ -24,7 +24,7 @@
     </ion-content>
   </ion-menu>
 
-  <!-- Main Content -->
+
   <div class="ion-page" id="main-content">
     <ion-header>
       <ion-toolbar color="dark">
@@ -52,19 +52,19 @@
         </div>
       </ion-card>
 
-       <!-- Botón para activar el escáner -->
+
   <ion-button expand="full" (click)="startScanning()">
     Iniciar Escáner QR
   </ion-button>
 
-  <!-- ZXing Scanner -->
+
   <zxing-scanner
     *ngIf="isScanning"
     [formats]="formats"
     (scanSuccess)="onScanSuccess($event)">
   </zxing-scanner>
 
-  <!-- Resultado del escaneo -->
+
   <div *ngIf="scanResult" class="result">
     <h2>Resultado del escaneo:</h2>
     <p>{{ scanResult }}</p>

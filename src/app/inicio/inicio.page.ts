@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { BarcodeFormat, Result } from '@zxing/library';  // Importar BarcodeFormat y Result desde @zxing/library
+import { BarcodeFormat, Result } from '@zxing/library';  
 
 @Component({
   selector: 'app-inicio',
@@ -8,9 +8,9 @@ import { BarcodeFormat, Result } from '@zxing/library';  // Importar BarcodeForm
 })
 export class InicioPage implements OnInit {
   nombreUsuario: string = '';
-  scanResult: string = '';  // Variable para almacenar el resultado del escáner
-  isScanning: boolean = false;  // Controlar si el escáner está activo
-  formats = [BarcodeFormat.QR_CODE];  // Configuración para escanear solo códigos QR
+  scanResult: string = '';  
+  isScanning: boolean = false;  
+  formats = [BarcodeFormat.QR_CODE];  
 
   constructor() {}
 
@@ -19,17 +19,17 @@ export class InicioPage implements OnInit {
     console.log('Nombre de usuario en Inicio:', this.nombreUsuario);
   }
 
-  // Método para manejar el resultado del escaneo
+ 
   onScanSuccess(result: any) {
-    const scanResult = result as Result;  // Forzar el tipo a Result
+    const scanResult = result as Result; 
     if (scanResult) {
-      this.scanResult = scanResult.getText();  // Obtener el texto del código QR escaneado
+      this.scanResult = scanResult.getText();  
       this.isScanning = false;
     }
   }
   
 
-  // Método para iniciar el escáner
+
   startScanning() {
     this.isScanning = true;
   }
